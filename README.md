@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+[SASS]
+npm install -g sass
+npm install -D sass-embedded
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+__vite.config.js__
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler'
+      }
+    }
+  }
+__________________
+
+[FONT AWESOME]
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/react-fontawesome@latest
+npm install @fortawesome/free-regular-svg-icons
+
+__________________

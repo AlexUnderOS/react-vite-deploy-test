@@ -1,0 +1,98 @@
+.offers-page {
+    h2 {
+        text-transform: uppercase;
+        font-size: 28pt;
+        font-weight: 800;
+        color: var(--cl-dark-2);
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h2::before {
+        content: '';
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        bottom: -5px;
+        height: 2px;
+        background: currentColor;
+    }
+
+    .offers-container {
+        background: var(--cl-low-white);
+        margin: 3rem;
+        padding: 40px;
+        .weekly-specials-grid {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 0fr 0fr 0fr;
+
+            .content {
+                text-align: center;
+                background: rgba(222, 222, 222, 0.5);
+                width: 400px;
+                height: 100%;
+                padding: 20px;
+            }
+            gap: 20px;
+        }
+    }
+
+    .deal-image,
+    .content {
+        border-radius: 40px;
+    }
+
+    .deal-image {
+        text-align: center;
+        width: auto;
+        height: 200px;
+        border-radius: 30px;
+    }
+
+    .deal-title {
+        text-align: left;
+        font-size: 19pt;
+        font-weight: 800;
+    }
+
+    .deal-date {
+        margin: 20px 0;
+        text-align: right;
+        font-size: 16pt;
+        font-weight: 100;
+        color: rgb(147, 147, 147);
+        text-decoration: underline;
+        text-underline-offset: 7px;
+    }
+
+    .deal-text {
+        font-size: 13pt;
+        font-weight: 100;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .deal-button {
+            width: 100%;
+            height: 3rem;
+            padding: 0 30px;
+            border-radius: 50px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            background: var(--cl-dark-3);
+            transition: all 0.5s;
+        }
+    }
+
+    .deal-button:hover {
+        background: var(--cl-dark-2);
+    }
+}

@@ -1,0 +1,293 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "5 Cheese",
+            "S_size": 9.99,
+            "M_size": 12.99,
+            "L_size": 15.49,
+            "imageName": "5_Cheese.png",
+            "ingredients": "Blue cheese, mozzarella, parmesan, cream sauce, feta, cheddar",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Barbecue",
+            "S_size": 9.99,
+            "M_size": 12.99,
+            "L_size": 15.49,
+            "imageName": "Barbecue.png",
+            "ingredients": "Bacon, mushrooms, chicken, onion, mozzarella, barbecue sauce",
+            "available": false
+        },
+        {
+            "id": 3,
+            "name": "Extra pepperoni",
+            "S_size": 10.99,
+            "M_size": 13.99,
+            "L_size": 16.99,
+            "imageName": "Extra_Pepperoni.png",
+            "ingredients": "Extra pepperoni, extra mozzarella cheese, pizza sauce",
+            "available": true
+        },
+        {
+            "id": 4,
+            "name": "Ham & Mushrooms",
+            "S_size": 8.99,
+            "M_size": 11.99,
+            "L_size": 14.49,
+            "imageName": "Ham_Mushrooms.png",
+            "ingredients": "Ham, mushrooms, mozzarella, pizza sauce",
+            "available": true
+        },
+        {
+            "id": 5,
+            "name": "Hawaiian",
+            "S_size": 6.99,
+            "M_size": 8.99,
+            "L_size": 12.99,
+            "imageName": "Hawaiian.png",
+            "ingredients": "Pineapple, ham, mozzarella, pizza sauce",
+            "available": true
+        },
+        {
+            "id": 6,
+            "name": "Margherita",
+            "S_size": 6.99,
+            "M_size": 8.99,
+            "L_size": 12.99,
+            "imageName": "Margherita.png",
+            "ingredients": "Mozzarella, pizza sauce",
+            "available": true
+        },
+        {
+            "id": 7,
+            "name": "Mexican",
+            "S_size": 9.99,
+            "M_size": 12.99,
+            "L_size": 15.49,
+            "imageName": "Mexican.png",
+            "ingredients": "Tomato sauce, mozzarella, beef, bacon, onions, jalapenos",
+            "available": true
+        },
+        {
+            "id": 8,
+            "name": "Pepperoni",
+            "S_size": 10.99,
+            "M_size": 13.99,
+            "L_size": 16.99,
+            "imageName": "Pepperoni.png",
+            "ingredients": "Extra pepperoni, extra mozzarella cheese, pizza sauce",
+            "available": true
+        },
+        {
+            "id": 9,
+            "name": "Spicy",
+            "S_size": 8.99,
+            "M_size": 11.99,
+            "L_size": 14.49,
+            "imageName": "Spicy.png",
+            "ingredients": "Bacon, mozzarella, pepperoni, pizza sauce, tomatoes, jalapeno",
+            "available": true
+        }
+    ],
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Coca-Cola",
+            "size": 0.33,
+            "price": 1.9,
+            "imageName": "coca_cola.png",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Coca-Cola zero",
+            "size": 0.33,
+            "price": 1.9,
+            "imageName": "coca_cola_zero.png",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "Apple Juice",
+            "size": 0.2,
+            "price": 0.9,
+            "imageName": "apple_juice.png",
+            "available": true
+        },
+        {
+            "id": 4,
+            "name": "Multifruit Juice",
+            "size": 0.2,
+            "price": 0.9,
+            "imageName": "multifruit_juice.png",
+            "available": true
+        },
+        {
+            "id": 5,
+            "name": "Orange Juice",
+            "size": 0.2,
+            "price": 0.9,
+            "imageName": "orange_juice.png",
+            "available": true
+        },
+        {
+            "id": 6,
+            "name": "Fanta",
+            "size": 0.33,
+            "price": 1.9,
+            "imageName": "fanta.png",
+            "available": true
+        },
+        {
+            "id": 7,
+            "name": "Sprite",
+            "size": 0.33,
+            "price": 1.9,
+            "imageName": "sprite.png",
+            "available": true
+        },
+        {
+            "id": 8,
+            "name": "Neptunas-carb Water",
+            "size": 0.5,
+            "price": 1.9,
+            "imageName": "neptunas_carb.png",
+            "available": true
+        },
+        {
+            "id": 9,
+            "name": "Neptunas-still Water",
+            "size": 0.33,
+            "price": 1.9,
+            "imageName": "neptunas_still.png",
+            "available": true
+        }
+    ],
+    "deserts": [
+        {
+            "id": 1,
+            "name": "Cinnastix",
+            "price": 3.5,
+            "imageName": "cinnastix.png",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Lava Cake",
+            "price": 4.9,
+            "imageName": "lava_cake.png",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "Cream Rolls",
+            "price": 3.9,
+            "imageName": "cream_rolls.png",
+            "available": true
+        }
+    ],
+    "sauces": [
+        {
+            "id": 1,
+            "name": "BBQ",
+            "price": 0.5,
+            "imageName": "BBQ.png",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Curry Mango",
+            "price": 0.5,
+            "imageName": "Curry_mango.png",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "Garlic",
+            "price": 0.5,
+            "imageName": "Garlic.png",
+            "available": true
+        },
+        {
+            "id": 4,
+            "name": "Mayo",
+            "price": 0.5,
+            "imageName": "Mayo.png",
+            "available": true
+        },
+        {
+            "id": 5,
+            "name": "Sweet Sour",
+            "price": 0.5,
+            "imageName": "Sweet_sour.png",
+            "available": true
+        }
+    ],
+    "snacks": [
+        {
+            "id": 1,
+            "name": "BBQ Wings",
+            "price": 5,
+            "imageName": "BBQ_wings.png",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Cheesy Bread With Jelapenos & Bacon",
+            "price": 5,
+            "imageName": "Cheesy_bread_with_jelapenos_and_bacon.png",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "Chicken Popcorn",
+            "price": 5,
+            "imageName": "Chicken_Popcorn.png",
+            "available": true
+        },
+        {
+            "id": 4,
+            "name": "Fries",
+            "price": 2.99,
+            "imageName": "Fries.png",
+            "available": true
+        },
+        {
+            "id": 5,
+            "name": "Fries With Cheese",
+            "price": 4.49,
+            "imageName": "Fries_with_cheese.png",
+            "available": true
+        },
+        {
+            "id": 6,
+            "name": "Fries With Cheese & Ham",
+            "price": 5.49,
+            "imageName": "Fries_with_cheese_and_ham.png",
+            "available": true
+        },
+        {
+            "id": 7,
+            "name": "Nuggets (10)",
+            "price": 3.5,
+            "imageName": "Nuggets_10.png",
+            "available": true
+        },
+        {
+            "id": 8,
+            "name": "Potato Wedges",
+            "price": 3.5,
+            "imageName": "Potato_wedges.png",
+            "available": true
+        },
+        {
+            "id": 9,
+            "name": "Wings",
+            "price": 5,
+            "imageName": "Wings.png",
+            "available": true
+        }
+    ]
+}

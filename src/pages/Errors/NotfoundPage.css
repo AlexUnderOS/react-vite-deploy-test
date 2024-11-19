@@ -1,0 +1,17 @@
+.notfound-page {
+    margin: 20px 3rem;
+}
+
+.notfound-page h2 {
+    font-size: 50pt;
+}
+
+.notfound-page p {
+    font-size: 25pt;
+    margin-top: 10px;
+}
+
+.notfound-page p .sad-face {
+    font-size: 40pt;
+    margin-left: 20px;
+}

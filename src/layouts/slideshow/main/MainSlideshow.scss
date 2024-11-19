@@ -1,0 +1,28 @@
+.main-slideshow {
+    .slideshow {
+        height: 69vh;
+        width: 100%;
+        position: relative;
+
+        background: black;
+        .slide {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: cover;
+            background-position: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+
+        
+    }
+}

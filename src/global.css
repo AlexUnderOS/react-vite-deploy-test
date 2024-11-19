@@ -1,0 +1,65 @@
+:root {
+    --cl-light-1: #fff7e9;
+    --cl-light-2: #ffc64b;
+    --cl-dark-1: rgb(42, 42, 42);
+    --cl-dark-2: #372121;
+    --cl-dark-3: #6d1f00;
+    --cl-low-white: rgba(255, 255, 255, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+.bg-1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(images/bg-1.png) center;
+    background-size: 50%;
+    opacity: 10%;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.linear-gradient-rl {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.15) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.linear-gradient-lr {
+    background: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.15) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+
+.box-shadow-1 {
+    box-shadow: 0 10px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.h2-1 {
+    font-weight: 800;
+    font-size: 25pt;
+    color: var(--cl-dark-2);
+}
